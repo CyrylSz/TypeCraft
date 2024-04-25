@@ -1,1 +1,2 @@
-# intu
+# Intuitive typing trainer
+(school project)
