@@ -1,0 +1,624 @@
+Apr 23, 2024 6:31:07 PM func.Func <clinit>
+INFO: Program Initialized!
+Apr 23, 2024 6:31:12 PM intu main
+SEVERE: Error:
+java.lang.ArithmeticException: / by zero
+	at intu.main(intu.java:17)Apr 23, 2024 7:28:22 PM intu mainApr 23, 2024 7:39:57 PM func.Func txt_to_array
+SEVERE: Error: 
+java.io.FileNotFoundException: src\texts\words_pol.txt (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at func.Func.txt_to_array(func.java:114)
+	at func.Func.WordArr(func.java:132)
+	at challenges.Words.Main(words.java:20)
+	at intu.main(intu.java:16)
+
+Apr 23, 2024 7:39:57 PM func.Func txt_to_array
+SEVERE: Error: 
+java.io.FileNotFoundException: src\texts\sentence_pol.txt (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at func.Func.txt_to_array(func.java:114)
+	at func.Func.SentenceArr(func.java:141)
+	at challenges.Sentences.Main(sentences.java:20)
+	at intu.main(intu.java:17)
+
+Apr 23, 2024 7:40:23 PM func.Func sprawdzIStworzPlik
+SEVERE: Error: 
+java.io.FileNotFoundException: src\texts\records.txt (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:67)
+	at func.Func.sprawdzIStworzPlik(func.java:104)
+	at func.finish.Main(finish.java:8)
+	at intu.main(intu.java:19)
+Apr 27, 2024 7:02:29 PM func.menu$2 paintComponent
+SEVERE: Error: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.menu$2.paintComponent(menu.java:32)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5325)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1114)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:75)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:112)
+	at java.desktop/java.awt.Container.paint(Container.java:2005)
+	at java.desktop/java.awt.Window.paint(Window.java:3959)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:889)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)May 01, 2024 12:59:55 PM func.Settings tryLoadFont
+INFO: Error while loading Fonts: 
+java.awt.FontFormatException: java.nio.BufferUnderflowException
+	at java.desktop/sun.font.TrueTypeFont.init(TrueTypeFont.java:532)
+	at java.desktop/sun.font.TrueTypeFont.<init>(TrueTypeFont.java:216)
+	at java.desktop/sun.font.TrueTypeFont.<init>(TrueTypeFont.java:196)
+	at java.desktop/sun.font.SunFontManager.createFont2D(SunFontManager.java:2208)
+	at java.desktop/java.awt.Font.<init>(Font.java:644)
+	at java.desktop/java.awt.Font.createFont(Font.java:1247)
+	at func.Settings.tryLoadFont(Settings.java:146)
+	at func.Settings.lambda$loadCustomFonts$2(Settings.java:135)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at func.Settings.loadCustomFonts(Settings.java:138)
+	at func.Settings.loadFontOptions(Settings.java:127)
+	at func.Menu.configureSettingsPanel(Menu.java:151)
+	at func.Menu.lambda$new$0(Menu.java:26)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)May 01, 2024 1:04:08 PM func.Settings tryLoadFontMay 01, 2024 4:39:53 PM func.Menu$2 paintComponent
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Menu$2.paintComponent(Menu.java:56)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5325)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1114)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:75)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:112)
+	at java.desktop/java.awt.Container.paint(Container.java:2005)
+	at java.desktop/java.awt.Window.paint(Window.java:3959)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:889)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 01, 2024 4:39:54 PM func.Menu$2 paintComponent
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Menu$2.paintComponent(Menu.java:56)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5318)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5266)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5076)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:878)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 01, 2024 4:39:56 PM func.Menu$2 paintComponent
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Menu$2.paintComponent(Menu.java:56)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5318)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5266)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5076)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:878)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 01, 2024 4:40:11 PM func.Menu$2 paintComponent
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Menu$2.paintComponent(Menu.java:56)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:961)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1137)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5318)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5266)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5076)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:878)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 01, 2024 4:40:11 PM func.Menu$2 paintComponent
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Menu$2.paintComponent(Menu.java:56)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1128)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5318)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1656)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1631)
+	at java.desktop/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1569)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1336)
+	at java.desktop/javax.swing.JComponent._paintImmediately(JComponent.java:5266)
+	at java.desktop/javax.swing.JComponent.paintImmediately(JComponent.java:5076)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:878)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:861)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:861)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:834)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:784)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1897)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)May 01, 2024 6:05:37 PM func.Settings <clinit>
+SEVERE: Loading image error: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.<clinit>(Settings.java:59)
+
+May 02, 2024 10:04:39 AM func.Menu lambda$yodaJumpScare$7
+INFO: Error during sound playback: 
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at func.SoundManager.playSoundsLOOP(SoundManager.java:28)
+	at func.Menu.lambda$yodaJumpScare$7(Menu.java:279)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 02, 2024 10:04:43 AM func.Menu lambda$yodaJumpScare$7
+INFO: Error during sound playback: 
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at func.SoundManager.playSoundsLOOP(SoundManager.java:28)
+	at func.Menu.lambda$yodaJumpScare$7(Menu.java:279)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 02, 2024 10:04:47 AM func.Menu lambda$yodaJumpScare$7
+INFO: Error during sound playback: 
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at func.SoundManager.playSoundsLOOP(SoundManager.java:28)
+	at func.Menu.lambda$yodaJumpScare$7(Menu.java:279)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 02, 2024 4:11:28 PM func.Menu lambda$yodaJumpScare$8
+INFO: Error during sound playback: 
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at func.SoundManager.playSound(SoundManager.java:27)
+	at func.Menu.lambda$yodaJumpScare$8(Menu.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 05, 2024 9:31:00 PM func.Menu lambda$yodaJumpScare$8
+INFO: Error during sound playback: 
+java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1095)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1049)
+	at func.SoundManager.playSound(SoundManager.java:26)
+	at func.Menu.lambda$yodaJumpScare$8(Menu.java:334)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 07, 2024 8:12:29 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:178)
+	at func.Settings.<init>(Settings.java:81)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:12:29 AM func.Settings saveSettings
+INFO: Error while writing Settings: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\func\settings.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:207)
+	at func.Settings.saveSettings(Settings.java:111)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:14:56 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:178)
+	at func.Settings.<init>(Settings.java:81)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:14:56 AM func.Settings saveSettings
+INFO: Error while writing Settings: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\func\settings.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:207)
+	at func.Settings.saveSettings(Settings.java:111)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:17:53 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:178)
+	at func.Settings.<init>(Settings.java:81)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:17:53 AM func.Settings saveSettings
+INFO: Error while writing Settings: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\func\settings.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:207)
+	at func.Settings.saveSettings(Settings.java:111)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:18:34 AM func.Settings saveSettings
+INFO: Error while writing Settings: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\func\settings.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:207)
+	at func.Settings.saveSettings(Settings.java:111)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:18:58 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:178)
+	at func.Settings.<init>(Settings.java:81)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:18:58 AM func.Settings saveSettings
+INFO: Error while writing Settings: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\func\settings.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:207)
+	at func.Settings.saveSettings(Settings.java:111)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 8:21:28 AM func.Settings txt_to_array
+SEVERE: Error: 
+java.io.FileNotFoundException: file:\C:\Users\Akwar\Documents\Procesy\intu\intu_IDEA\intu\out\production\intu\texts\sentence_eng.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at func.Settings.txt_to_array(Settings.java:284)
+	at func.Settings.SentenceArr(Settings.java:320)
+	at func.Challenges.<init>(Challenges.java:33)
+	at func.Menu.configureLevelsPanel(Menu.java:253)
+	at func.Menu.lambda$new$0(Menu.java:23)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)May 07, 2024 9:30:25 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:176)
+	at func.Settings.loadSettings(Settings.java:98)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Menu.<init>(Menu.java:13)
+	at Intu.main(Intu.java:5)
+
+May 07, 2024 9:30:26 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:176)
+	at func.Settings.loadSettings(Settings.java:98)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Challenges.<init>(Challenges.java:36)
+	at func.Menu.configureLevelsPanel(Menu.java:253)
+	at func.Menu.lambda$new$0(Menu.java:23)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 07, 2024 9:30:26 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:176)
+	at func.Settings.loadSettings(Settings.java:98)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Challenges.<init>(Challenges.java:36)
+	at func.Menu.configureLevelsPanel(Menu.java:253)
+	at func.Menu.lambda$new$0(Menu.java:23)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 07, 2024 9:30:26 AM func.Settings updateBackground
+SEVERE: Error while loading background image: 
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+	at func.Settings.updateBackground(Settings.java:176)
+	at func.Settings.loadSettings(Settings.java:98)
+	at func.Settings.<init>(Settings.java:87)
+	at func.Challenges.<init>(Challenges.java:36)
+	at func.Menu.configureLevelsPanel(Menu.java:253)
+	at func.Menu.lambda$new$0(Menu.java:23)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+May 09, 2024 12:25:19 AM func.SoundManager run
+INFO: Error: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at func.SoundManager.playAddedClips(SoundManager.java:137)
+	at func.SoundManager.run(SoundManager.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 09, 2024 12:25:27 AM func.SoundManager run
+INFO: Error: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at func.SoundManager.playAddedClips(SoundManager.java:137)
+	at func.SoundManager.run(SoundManager.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 09, 2024 12:32:03 AM func.SoundManager run
+INFO: Error: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at func.SoundManager.playAddedClips(SoundManager.java:136)
+	at func.SoundManager.run(SoundManager.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 09, 2024 12:32:10 AM func.SoundManager run
+INFO: Error: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at func.SoundManager.playAddedClips(SoundManager.java:136)
+	at func.SoundManager.run(SoundManager.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 09, 2024 12:33:45 AM func.SoundManager run
+INFO: Error: 
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:509)
+	at func.SoundManager.playAddedClips(SoundManager.java:136)
+	at func.SoundManager.run(SoundManager.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

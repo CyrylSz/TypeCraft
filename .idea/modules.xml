@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/intu.iml" filepath="$PROJECT_DIR$/intu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TypeCraft.iml" filepath="$PROJECT_DIR$/TypeCraft.iml" />
     </modules>
   </component>
 </project>
