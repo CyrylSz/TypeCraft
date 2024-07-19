@@ -1,10 +1,11 @@
 # TypeCraft
 Simple typing trainer featuring a progression system and extensive customizability.
+
 (random school project)
 
 ## Contents:
 * 3 Challenges.
-* A progression system based on achievements.
+* Achievement-based progression system.
 * Day streak motivator.
 * You can easily add your own backgrounds, fonts and music.
     * Music tracks are played in alphabetical order.
@@ -23,6 +24,6 @@ Simple typing trainer featuring a progression system and extensive customizabili
 ## To do:
 - Sandbox mode
 - Monketyper mode
-- Toolbar with achievements list
+- Toolbar with a list of achievements
 - More challenges
 - Fancy graphs

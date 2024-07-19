@@ -18,7 +18,8 @@ public class Challenge extends Settings {
     private final ArrayList<Integer> sentenceIndexHistory = new ArrayList<>();
     private int currentSentenceIndex, currentWordIndex = 0, stumbles = 0, correctWordsCount = 0, correctSentencesCount = 0, timerActivationCount = 0;
     private final String[] sentences;
-    private final JLabel displayArea, feedbackLabel, progressLabel, errorLabel, speedLabel, accuracyLabel, timerLabel;
+    private final JLabel displayArea, timerLabel;
+    private JLabel feedbackLabel, progressLabel, errorLabel, speedLabel, accuracyLabel;
     private final JTextField typingField;
     public static JButton restartButton;
     private long startTime;
@@ -77,47 +78,33 @@ public class Challenge extends Settings {
         timerLabel.setForeground(foreground);
         typingPanel.add(timerLabel);
         typingPanel.add(Box.createHorizontalStrut(100));
-
         gbc.gridy++;
         panels[5+I].add(typingPanel, gbc);
 
         gbc.fill = GridBagConstraints.NONE;
-        gbc.gridy++;
-        feedbackLabel = new JLabel(" ");
-        feedbackLabel.setFont(customFont.deriveFont(Font.BOLD, 40));
-        panels[5+I].add(feedbackLabel, gbc);
-
-        progressLabel = new JLabel(messages.getString("completed")+": 0/" + NoSLevel[I]);
-        progressLabel.setFont(customFont.deriveFont(Font.BOLD, 40));
-        progressLabel.setOpaque(true);
-        progressLabel.setBackground(background);
-        progressLabel.setForeground(foreground);
-        gbc.gridy++;
-        if(infoBars)panels[5+I].add(progressLabel, gbc);
-
-        speedLabel = new JLabel(messages.getString("speed")+": 0.00");
-        speedLabel.setFont(customFont.deriveFont(Font.BOLD, 40));
-        speedLabel.setOpaque(true);
-        speedLabel.setBackground(background);
-        speedLabel.setForeground(foreground);
-        gbc.gridy++;
-        if(infoBars)panels[5+I].add(speedLabel, gbc);
-
-        accuracyLabel = new JLabel(messages.getString("accuracy")+": 0%");
-        accuracyLabel.setFont(customFont.deriveFont(Font.BOLD, 40));
-        accuracyLabel.setOpaque(true);
-        accuracyLabel.setBackground(background);
-        accuracyLabel.setForeground(foreground);
-        gbc.gridy++;
-        if(infoBars)panels[5+I].add(accuracyLabel, gbc);
-
-        errorLabel = new JLabel(messages.getString("stumbles")+": 0");
-        errorLabel.setFont(customFont.deriveFont(Font.BOLD, 40));
-        errorLabel.setOpaque(true);
-        errorLabel.setBackground(background);
-        errorLabel.setForeground(foreground);
-        gbc.gridy++;
-        if(infoBars)panels[5+I].add(errorLabel, gbc);
+        JLabel[] labels = new JLabel[5];
+        for(int i=0; i<5; i++){
+            labels[i] = new JLabel(
+                i==0?" ":
+                i==1?messages.getString("completed")+": 0/" + NoSLevel[I]:
+                i==2?messages.getString("speed")+": 0.00":
+                i==3?messages.getString("accuracy")+": 0%":
+                messages.getString("stumbles")+": 0"
+            );
+            if(i!=0)labels[i].setOpaque(true);
+            labels[i].setBackground(background);
+            labels[i].setForeground(foreground);
+            labels[i].setFont(customFont.deriveFont(Font.BOLD, 40));
+            gbc.gridy++;
+            if(infoBars)panels[5+I].add(
+                switch (i){
+                    case 0 -> feedbackLabel = labels[i];
+                    case 1 -> progressLabel = labels[i];
+                    case 2 -> speedLabel = labels[i];
+                    case 3 -> accuracyLabel = labels[i];
+                    default -> errorLabel = labels[i];
+                },gbc);
+        }
 
         timer = new Timer(1000, e -> updateTimer());
         typingField.addKeyListener(new KeyAdapter() {

@@ -64,9 +64,8 @@ public class Menu extends Settings {
         return panels;
     }
     private void initMainMenuPanel() {
-        Font customFont = new Font(font, Font.PLAIN, 60);
-        Font cFBig = customFont.deriveFont(Font.BOLD, 60);
-        Font cFSmall = customFont.deriveFont(Font.PLAIN, 40);
+        Font cFBig = new Font(font, Font.BOLD, 60);
+        Font cFSmall = new Font(font, Font.PLAIN, 40);
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 15, 10);
@@ -130,9 +129,8 @@ public class Menu extends Settings {
         }
     }
     private void initSettingsPanel() {
-        Font customFont = new Font(font, Font.PLAIN, 60);
-        Font cFBig = customFont.deriveFont(Font.BOLD, 60);
-        Font cFSmall = customFont.deriveFont(Font.PLAIN, 40);
+        Font cFBig = new Font(font, Font.BOLD, 60);
+        Font cFSmall = new Font(font, Font.PLAIN, 40);
 
         GridBagConstraints gbc = new GridBagConstraints();
 
@@ -248,9 +246,8 @@ public class Menu extends Settings {
         return comboBox;
     }
     public static void initChallengesMenuPanel() {
-        Font customFont = new Font(font, Font.PLAIN, 60);
-        Font cFBig = customFont.deriveFont(Font.BOLD, 60);
-        Font cFSmall = customFont.deriveFont(Font.PLAIN, 40);
+        Font cFBig = new Font(font, Font.BOLD, 60);
+        Font cFSmall = new Font(font, Font.PLAIN, 40);
 
         GridBagConstraints gbc = new GridBagConstraints();
 
@@ -283,15 +280,14 @@ public class Menu extends Settings {
 
         for (int i = 0; i < 3; i++) {
             int finalI = i;
-            ChallengeIcon level = new ChallengeIcon(i, () -> togglePanelsVisibility(5+finalI), customFont);
+            ChallengeIcon level = new ChallengeIcon(i, () -> togglePanelsVisibility(5+finalI), cFSmall);
             gbc.gridx = i;
             panels[2].add(level, gbc);
         }
     }
     public static void initChallengePanels() {
-        Font customFont = new Font(font, Font.PLAIN, 60);
-        Font cFBig = customFont.deriveFont(Font.BOLD, 60);
-        Font cFSmall = customFont.deriveFont(Font.PLAIN, 40);
+        Font cFBig = new Font(font, Font.BOLD, 60);
+        Font cFSmall = new Font(font, Font.PLAIN, 40);
 
         for (int i = 0; i < NoC; i++) {
             GridBagConstraints gbc = new GridBagConstraints();
@@ -304,7 +300,7 @@ public class Menu extends Settings {
             gbc.fill = GridBagConstraints.HORIZONTAL;
             panels[5+i].add(challengesLabels[i], gbc);
 
-            new Challenge(i, gbc, customFont);
+            new Challenge(i, gbc, cFSmall);
         }
     }
     private static void BackButton(GridBagConstraints gbc, Font cFSmall, int panels_index, int tPV_index) {
