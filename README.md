@@ -27,3 +27,5 @@ Simple typing trainer featuring a progression system and extensive customizabili
 - Toolbar with a list of achievements
 - More challenges
 - Fancy graphs
+
+(project abandoned)
